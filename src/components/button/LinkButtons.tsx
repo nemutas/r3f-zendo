@@ -7,7 +7,7 @@ import { IconButton } from '@mui/material';
 export const LinkButtons: VFC = () => {
 	return (
 		<div css={styles.container}>
-			<a href="https://github.com/nemutas" target="_blank" rel="noopener noreferrer">
+			<a href="https://github.com/nemutas/r3f-zendo" target="_blank" rel="noopener noreferrer">
 				<IconButton size="large">
 					<AiFillGithub color="#fff" />
 				</IconButton>
