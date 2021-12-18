@@ -1,5 +1,5 @@
 import React, { VFC } from 'react';
-import { OrbitControls, Stats } from '@react-three/drei';
+import { OrbitControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import { Effects } from './Effects';
 import { WaveShpere } from './WaveShpere';
@@ -15,10 +15,8 @@ export const Zendo: VFC = () => {
 				far: 2000
 			}}
 			dpr={window.devicePixelRatio}>
-			{/* canvas color */}
+			{/* scene */}
 			<color attach="background" args={['#000']} />
-			{/* fps */}
-			{/* <Stats /> */}
 			{/* camera controller */}
 			<OrbitControls
 				attach="orbitControls"
@@ -33,12 +31,13 @@ export const Zendo: VFC = () => {
 				removeEventListener={undefined}
 				dispatchEvent={undefined}
 			/>
-			{/* helper */}
-			{/* <axesHelper args={[1]} /> */}
 			{/* objects */}
 			<WaveShpere />
 			{/* effects */}
 			<Effects />
+			{/* debug */}
+			{/* <Stats /> */}
+			{/* <axesHelper args={[1]} /> */}
 		</Canvas>
 	)
 }
