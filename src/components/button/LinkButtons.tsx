@@ -12,7 +12,7 @@ export const LinkButtons: VFC = () => {
 					<AiFillGithub color="#fff" />
 				</IconButton>
 			</a>
-			<a href="https://qiita.com/nemutas" target="_blank" rel="noopener noreferrer">
+			<a href="https://qiita.com/nemutas/items/38a33130e8bf3564769f" target="_blank" rel="noopener noreferrer">
 				<IconButton size="large">
 					<SiQiita color="#55C500" />
 				</IconButton>
