@@ -119,7 +119,6 @@ void main() {
   float rim = smoothstep(u_start, u_end, 1.0 - dot(normal, eye));
   float ratio = clamp(rim, 0.0, 1.0);
   
-  // gl_FragColor = vec4(ratio * u_alpha * u_color, 1.0);
   gl_FragColor = vec4(u_color * ratio, u_alpha + ratio);
 }
 `
