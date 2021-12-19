@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/r3f-zendo/static/css/main.52a745bf.chunk.css",
-    "main.js": "/r3f-zendo/static/js/main.089b67a7.chunk.js",
-    "main.js.map": "/r3f-zendo/static/js/main.089b67a7.chunk.js.map",
+    "main.js": "/r3f-zendo/static/js/main.f3ca4c0f.chunk.js",
+    "main.js.map": "/r3f-zendo/static/js/main.f3ca4c0f.chunk.js.map",
     "runtime-main.js": "/r3f-zendo/static/js/runtime-main.e4301e7d.js",
     "runtime-main.js.map": "/r3f-zendo/static/js/runtime-main.e4301e7d.js.map",
     "static/js/2.5a9a1eb0.chunk.js": "/r3f-zendo/static/js/2.5a9a1eb0.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e4301e7d.js",
     "static/js/2.5a9a1eb0.chunk.js",
     "static/css/main.52a745bf.chunk.css",
-    "static/js/main.089b67a7.chunk.js"
+    "static/js/main.f3ca4c0f.chunk.js"
   ]
 }
